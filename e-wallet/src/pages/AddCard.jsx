@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addCard } from "../redux/cardlistSlice";
+import { FcSimCardChip } from "react-icons/fc"
 
 export default function AddCard() {
     const dispatch = useDispatch();
@@ -53,17 +54,20 @@ export default function AddCard() {
             <Header text="Add a new card" />
             <main>
                 <article>
-                    <div>
-                        <p id="card-number"></p>
-                        <p id="card-vendor"></p>
+
+                    <p id="card-vendor"></p>
+                    <div className="card-middle">
+                        <FcSimCardChip size={50} />
+                        <p className="card-number" id="card-number"></p>
                     </div>
 
-                    <div>
-                        <div>
+
+                    <div className="card-bottom">
+                        <div className="card-bottom-name">
                             <p>Cardholder name</p>
                             <p>{cards[0].name}</p>
                         </div>
-                        <div>
+                        <div className="card-bottom-valid">
                             <p>VALID THRU</p>
                             <p id="card-month"></p>/<p id="card-year"></p>
                         </div>

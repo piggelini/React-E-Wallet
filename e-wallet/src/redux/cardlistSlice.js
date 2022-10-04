@@ -20,24 +20,6 @@ const cardListSlice = createSlice({
             ccv: 432,
             active: true,
             id: 1
-        },
-        {
-            number: 4334123412341555,
-            name: "",
-            valid: "11/25",
-            vendor: "Yuzu",
-            ccv: 432,
-            active: false,
-            id: 2
-        },
-        {
-            number: 4334123412341234,
-            name: "",
-            valid: "11/25",
-            vendor: "Yuzu",
-            ccv: 432,
-            active: false,
-            id: 3
         }
         ],
         latestId: 3,
