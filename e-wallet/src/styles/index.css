@@ -185,4 +185,10 @@ form button {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+.add-expire-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=index.css.map */

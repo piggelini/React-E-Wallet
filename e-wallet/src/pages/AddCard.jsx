@@ -69,7 +69,7 @@ export default function AddCard() {
                         </div>
                         <div className="card-bottom-valid">
                             <p>VALID THRU</p>
-                            <p id="card-month"></p>/<p id="card-year"></p>
+                            <div class="add-expire-div"><p id="card-month" class="add-valid-thru"></p>/<p id="card-year" class="add-valid-thru"></p></div>
                         </div>
                     </div>
                 </article>
