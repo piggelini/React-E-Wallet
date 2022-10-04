@@ -28,7 +28,7 @@ export default function Card({ card, number, cardholder, valid, vendor, id }) {
         <>
             <article onClick={() => handleActivateCard()}>
 
-                <p>{vendor}</p>
+                <div class="vendor"><p>{vendor}</p></div>
                 <div className="card-middle">
                     <FcSimCardChip size={50} />
                     <p className="card-number">{number}</p>

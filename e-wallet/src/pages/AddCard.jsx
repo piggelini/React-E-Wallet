@@ -55,7 +55,7 @@ export default function AddCard() {
             <main>
                 <article>
 
-                    <p id="card-vendor"></p>
+                    <div class="vendor"> <p id="card-vendor"></p></div>
                     <div className="card-middle">
                         <FcSimCardChip size={50} />
                         <p className="card-number" id="card-number"></p>
